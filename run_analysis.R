@@ -1,5 +1,6 @@
 # Getting and Cleaning Data Project
-library(dplyr)
+library(plyr)
+library(reshape2)
 # Set the work directory to project
 setwd("~/R/project")
 filename<-"project.zip"
@@ -43,7 +44,9 @@ data$activity<-factor(data$activity, levels = activitylabels[,1], labels = activ
 # Extracts only the measurements on the mean and standard deviation 
 #    for each measurement.
 neededcol<-grepl("mean()|std()|subject|activity",names(data)) & !grepl("meanFreq", names(data))
-finaldata<-data[,neededcol]
-# From the data set in step 4, creates a second, independent tidy data set 
+resultdata<-data[,neededcol]
+# From the result data, creates a second, independent tidy data set 
 # with the average of each variable for each activity and each subject.
+meltdata <-melt(resultdata,id=c("subject","activity"))
+finaldata<-dcast(meltdata, subject + activity ~ variable, mean)
 write.table(finaldata,file="tidy_data.txt",row.names=FALSE)
