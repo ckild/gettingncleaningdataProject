@@ -1,6 +1,12 @@
 Code Book
 
+<<<<<<< HEAD
 This code book contains all the variables and summaries calculated, along with units, and any other relevant information fields in tidy_data.txt.
+=======
+This code book contains all the variables and summaries calculated, along with units, and any other relevant information fields in tidy_data.txt. 
+
+There are 180 rows and 68 columns in the tidy_data.txt. Each row corresponds to one subject doing one activity
+>>>>>>> origin/master
 
 The dataset is mainly calculating the average of each variable for each activity and each subject. 
 
@@ -11,6 +17,14 @@ run_analysis.R basically do the following things:
 4.	Appropriately labels the data set with descriptive variable names.
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+<<<<<<< HEAD
+=======
+One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Here are the data for the project:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+>>>>>>> origin/master
 Identifiers
 
 subject
