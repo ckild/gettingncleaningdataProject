@@ -1,5 +1,8 @@
 Code Book
-This code book contains all the variables and summaries calculated, along with units, and any other relevant information fields in tidy_data.txt.
+
+This code book contains all the variables and summaries calculated, along with units, and any other relevant information fields in tidy_data.txt. 
+
+There are 180 rows and 68 columns in the tidy_data.txt. Each row corresponds to one subject doing one activity
 
 The dataset is mainly calculating the average of each variable for each activity and each subject. 
 
