@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Code Book
 =======
 This code book contains all the variables and summaries calculated, along with units, and any other relevant information fields in tidy_data.txt.
@@ -23,23 +22,18 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 
 Identifiers
-
+=======
 subject
 
 activity
 
-<<<<<<< HEAD
 Variables
 =======
 
 tBodyAcc-mean()-X
-
 tBodyAcc-mean()-Z
-
 tBodyAcc-std()-Y
-
 tGravityAcc-mean()-X
-
 tGravityAcc-mean()-Z
 tGravityAcc-std()-Y
 tBodyAccJerk-mean()-X
