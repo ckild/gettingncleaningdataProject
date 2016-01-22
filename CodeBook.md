@@ -1,6 +1,8 @@
 Code Book
 This code book contains all the variables and summaries calculated, along with units, and any other relevant information fields in tidy_data.txt.
 
+The dataset is mainly calculating the average of each variable for each activity and each subject. 
+
 Identifiers
 subject
 activity
